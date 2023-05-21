@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.check-switch:checked + .slider{
+    transform: translateX(2.5rem);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
