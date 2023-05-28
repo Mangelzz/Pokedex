@@ -101,7 +101,7 @@ const Pokemons = () => {
                 className="w-40 h-40 my-1"
               />
               <p className="flex justify-between items-center bg-gray-500 text-fuchsia-200 font-bold py-1 px-2 rounded-xl shadow-sm w-36 shadow-gray-600 mt-2 capitalize flex-col">
-                <span className="text-gray-100 font-bold">#{pokemon.id}</span>
+                <span className="text-gray-100 font-bold">N° {pokemon.id}</span>
                 <span className="text-gray-100 font-bold">{pokemon.name}</span>
                 <div className="flex justify-between gap-4 p-1">
                   <span

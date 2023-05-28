@@ -102,7 +102,7 @@ const PokemonDetails = ({ show, pokemon, close }) => {
           </section>
         </div>
         <div className="grid px-2 gap-3 flex-1 max-md:flex max-md:flex-col">
-            <h2 className="text-3xl font-bold text-center">{pokemon.name}</h2>
+            <h2 className="text-3xl font-bold text-center capitalize">{pokemon.name}</h2>
             <h3 className="text-xl">Habilities</h3>
             <ul>
             {
